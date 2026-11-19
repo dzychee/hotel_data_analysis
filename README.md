@@ -60,18 +60,8 @@ All columns were read as raw strings to prevent silent type coercion. Every tran
 ## Repository Structure
 
 ```text
-├── data/
-│   └── hotel_bookings_dirty.csv      # Raw corrupted dataset (10,325 rows × 24 cols)
-├── outputs/
-│   ├── bookings_clean.csv            # Final clean dataset (10,000 bookings × 30 cols)
-│   ├── monthly_summary.csv           # Monthly aggregated metrics by hotel
-│   ├── cleaning_log.csv              # Documented log of all cleaning rules & actions
-│   ├── row_lineage.csv               # Full traceability of every raw row_id
-│   ├── quality_report.csv            # Before vs. after data quality metrics
-│   ├── tables/                       # Source CSV tables for Q1–Q10 & Insights 1–13
-│   └── figures/                      # Exported high-resolution charts (PNG)
-├── hotel_booking_analysis.ipynb      # Complete Python notebook (Audit → Clean → Validate → EDA)
-├── Bao_cao_Khach_san.pdf             # Full LaTeX Lab Report (23 pages)
+├── hotel_analysis.ipynb      # Complete Python notebook (Audit → Clean → Validate → EDA)
+├── Bao_cao_Khach_san.pdf     # Full LaTeX Lab Report (23 pages)
 └── README.md
 ```
 
