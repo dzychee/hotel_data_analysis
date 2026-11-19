@@ -73,6 +73,9 @@ All columns were read as raw strings to prevent silent type coercion. Every tran
 ├── hotel_booking_analysis.ipynb      # Complete Python notebook (Audit → Clean → Validate → EDA)
 ├── Bao_cao_Khach_san.pdf             # Full LaTeX Lab Report (23 pages)
 └── README.md
+```
+
+---
 
 ## How to Run
 * Open `hotel_analysis.ipynb` in Jupyter Notebook or Google Colab and run all cells.
